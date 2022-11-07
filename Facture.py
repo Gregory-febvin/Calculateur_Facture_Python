@@ -56,7 +56,7 @@ while True:
     ammount_tva = float(input("Pour terminer veuillez indiquer le pourcentage de tva : "))
 
     
-    total_price(price_product, number_product, ammount_tva)
+    calculation(price_product, number_product, ammount_tva)
 
     next_calculation = input("Une autre commande ? (oui/non): ")
     if next_calculation == "non":
